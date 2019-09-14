@@ -33,7 +33,7 @@ Select all & limit
 
 `SELECT * FROM birdstrikes LIMIT 10`
 
-### Exercise 1: What airline and state figures in the 145th line of our database?
+### Exercise 1: What state figures in the 145th line of our database?
 
 ## Ordering data
 
