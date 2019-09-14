@@ -142,8 +142,6 @@ Date is less than "2000-01-02"
 
 `SELECT * FROM birdstrikes WHERE flight_date < "2000-01-02"`
 
-`SELECT * FROM birdstrikes WHERE flight_date < "2000-01-02"`
-
 
 #### NULL 
 
