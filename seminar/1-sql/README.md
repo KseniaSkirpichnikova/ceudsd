@@ -53,7 +53,7 @@ Reverse ordering by multiple fields
 
 `SELECT state, cost FROM birdstrikes ORDER BY state DESC, cost`
 
-### Exercise 2: What is the date the newest birstrikes in this database?
+### Exercise 2: What is the date of the newest birstrike in this database?
 
 ## Select unique values 
 
