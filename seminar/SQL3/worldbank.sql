@@ -9,7 +9,7 @@ CREATE TABLE cities (
   PRIMARY KEY(city_name)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/cities.csv' INTO TABLE cities FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/cities.csv' INTO TABLE cities FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
 CREATE TABLE countries (
@@ -27,7 +27,7 @@ CREATE TABLE countries (
   PRIMARY KEY(country_code)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/countries.csv' INTO TABLE countries FIELDS TERMINATED BY ',' ENCLOSED BY '"'  LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/countries.csv' INTO TABLE countries FIELDS TERMINATED BY ',' ENCLOSED BY '"'  LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 CREATE TABLE languages (
   lang_id               INTEGER,
@@ -38,7 +38,7 @@ CREATE TABLE languages (
   PRIMARY KEY(lang_id)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/languages.csv' INTO TABLE languages FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/languages.csv' INTO TABLE languages FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
 CREATE TABLE economies (
@@ -56,7 +56,7 @@ CREATE TABLE economies (
   PRIMARY KEY(econ_id)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/economies.csv' INTO TABLE economies FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/economies.csv' INTO TABLE economies FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
 CREATE TABLE currencies (
@@ -69,7 +69,7 @@ CREATE TABLE currencies (
   PRIMARY KEY(curr_id)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/currencies.csv' INTO TABLE currencies FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/currencies.csv' INTO TABLE currencies FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
 
@@ -83,6 +83,6 @@ CREATE TABLE populations (
   PRIMARY KEY(pop_id )
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/populations.csv' INTO TABLE populations FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA INFILE '/var/lib/mysql-files/populations.csv' INTO TABLE populations FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
