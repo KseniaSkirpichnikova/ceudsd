@@ -228,7 +228,7 @@ Left join countries with economies. List country_name, region, gdp_percapita for
 
 ## RIGHT JOIN
 
-Rarely used. It is a mirror of left join. Prevoius exercise with right join:
+Rarely used. It is a mirror of left join. Previous exercise with right join: 
 
 ```
 SELECT country_name, region, gdp_percapita
@@ -238,18 +238,7 @@ USING(country_code)
 where year = 2010 LIMIT 5;
 ```
 
-# HOMEWORK! (Submit to moodle by 9nd of October 21:00)
 
-* List the spoken languages for countries and the usage of the language within countries in percentage. Send us the query.
-* Add FOREIGN KEY Constraints to the tables we created today
-  * Method1: Drop tables and add the keys to worldbank.sql. Send us the new worldbank.sql
-  * Method2: Use ALTER. Send us the ALTER scripts.
-* Schema modeling exercise
-  * Download MySQL Workbench 8.0 https://dev.mysql.com/downloads/workbench/
-  * Create New Model
-  * Add table cities, countries, economies 
-  * Visualize on EER Diagram 
-  * Send us the diagram in a picture format
 
 
 
