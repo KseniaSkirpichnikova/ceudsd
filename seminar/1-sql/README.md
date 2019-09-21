@@ -149,8 +149,6 @@ Date is less than "2000-01-02"
 
 `SELECT * FROM birdstrikes WHERE speed IS NOT NULL`
 
-### Exercise 4: Choose another column and retrieve the lines where is NULL
-
 
 ## LOGICAL OPERATORS 
 
@@ -160,7 +158,7 @@ Filter by multiple conditions
 
 `SELECT * FROM birdstrikes WHERE state = 'Alabama' OR state = 'Missouri'`
 
-### Exercise 5: What is the state of the 2nd entry, if you filter out all records which have no state or no bird_size specified?
+### Exercise 4: What is the state of the 2nd entry, if you filter out all records which have no state or no bird_size specified?
 
 Filtering out empty strings as well
 
