@@ -228,9 +228,7 @@ Left join countries with economies. List country_name, region, gdp_percapita for
 
 ## RIGHT JOIN
 
-Rarely used. It is a mirror of left join
-
-The result of Exercise 5 with right join
+Rarely used. It is a mirror of left join. Prevoius exercise with right join:
 
 ```
 SELECT country_name, region, gdp_percapita
