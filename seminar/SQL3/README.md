@@ -211,7 +211,7 @@ WHERE region = 'North America'
 ORDER BY region;
 ```
 
-Same with left join with if null check 
+Same with left join and null check 
 
 ```
 SELECT country_name, region, basic_unit
