@@ -188,16 +188,4 @@ Works with integers as well
 
 
 
-## HOMEWORK! (Submit to moodle by 25th of September 21:00)
-
-* List all incidents related by airline name to "America" and which happened 18 years from the execution of the query and where the bird implicated was small or medium or at least the cost was less than 1000. Send us the query.
-
-* Order the previous query by cost in descending order and limit to 10 entries. Send us the "id" the "bird_size" of the 9th entry?
-
-## SOLUTION
-
-* `SELECT * FROM birdstrikes WHERE flight_date > DATE_SUB(NOW(),INTERVAL 18 YEAR) AND airline LIKE '%america%' AND (bird_size IN ("Small","Medium") OR cost<1000)`
-
-
-* 87329, Medium  `SELECT * FROM birdstrikes WHERE flight_date > DATE_SUB(NOW(),INTERVAL 18 YEAR) AND airline LIKE '%america%' AND (bird_size IN ("Small","Medium") OR cost<1000) ORDER BY cost DESC LIMIT 10;`
 
