@@ -89,8 +89,6 @@ Let's fix it:
 
 ## HAVING
 
-### Exercise 6: >>SELECT AVG(speed),state FROM birdstrikes GROUP BY state<< what is the result of this query
-
 What if I want AVG speed for states which has 'island' on their name:
 
 `SELECT AVG(speed),state FROM birdstrikes GROUP BY state WHERE state LIKE '%island%'`
@@ -100,7 +98,7 @@ Crashbummbang! The correct keyword after GROUP BY is HAVING
 `SELECT AVG(speed),state FROM birdstrikes GROUP BY state HAVING state LIKE '%island%'`
 
 
-### Exercise  7: What the highest AVG speed of the states with names less than 5 characters?
+### Exercise  6: What the highest AVG speed of the states with names less than 5 characters?
 
 
 # Writing data into the Database
