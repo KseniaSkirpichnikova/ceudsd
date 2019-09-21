@@ -76,7 +76,7 @@ FROM  countries
 
 ## Exercise 1
 
-Using the populations table focused only for the year 2015, create a new field AS popsize_group to organize population size into
+Select the populations records where year is 2015, create a new field AS popsize_group to organize population size into
 
 * 'large' (> 50 million),
 
@@ -211,7 +211,7 @@ WHERE region = 'North America'
 ORDER BY region;
 ```
 
-Same with left join with if null check 
+Same with left join and null check 
 
 ```
 SELECT country_name, region, basic_unit
@@ -228,9 +228,7 @@ Left join countries with economies. List country_name, region, gdp_percapita for
 
 ## RIGHT JOIN
 
-Rarely used. It is a mirror of left join
-
-The result of Exercise 5 with right join
+Rarely used. It is a mirror of left join. Previous exercise with right join: 
 
 ```
 SELECT country_name, region, gdp_percapita
@@ -240,18 +238,7 @@ USING(country_code)
 where year = 2010 LIMIT 5;
 ```
 
-# HOMEWORK! (Submit to moodle by 9nd of October 21:00)
 
-* List the spoken languages for countries and the usage of the language within countries in percentage. Send us the query.
-* Add FOREIGN KEY Constraints to the tables we created today
-  * Method1: Drop tables and add the keys to worldbank.sql. Send us the new worldbank.sql
-  * Method2: Use ALTER. Send us the ALTER scripts.
-* Schema modeling exercise
-  * Download MySQL Workbench 8.0 https://dev.mysql.com/downloads/workbench/
-  * Create New Model
-  * Add table cities, countries, economies 
-  * Visualize on EER Diagram 
-  * Send us the diagram in a picture format
 
 
 
