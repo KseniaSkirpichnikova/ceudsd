@@ -22,7 +22,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/countries.csv' INTO TABLE countries FIELD
 
 CREATE TABLE cities (
   city_name               VARCHAR(255),
-  country_code            VARCHAR(4),
+  country_code            VARCHAR(4) NOT NULL,
   city_proper_pop         REAL,
   metroarea_pop           REAL,
   urbanarea_pop           REAL NOT NULL,
@@ -36,7 +36,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/cities.csv' INTO TABLE cities FIELDS TERM
 
 CREATE TABLE languages (
   lang_id               INTEGER,
-  country_code          VARCHAR(4),
+  country_code          VARCHAR(4) NOT NULL,
   name                  VARCHAR(255),
   percent               REAL,
   official              BOOLEAN,
@@ -49,7 +49,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/languages.csv' INTO TABLE languages FIELD
 
 CREATE TABLE economies (
   econ_id               INTEGER,
-  country_code          VARCHAR(4),
+  country_code          VARCHAR(4) NOT NULL,
   year                  INTEGER,
   income_group          VARCHAR(255),
   gdp_percapita         REAL,
@@ -68,7 +68,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/economies.csv' INTO TABLE economies FIELD
 
 CREATE TABLE currencies (
   curr_id               INTEGER,
-  country_code          VARCHAR(4),
+  country_code          VARCHAR(4) NOT NULL,
   basic_unit            VARCHAR(255),
   curr_code             VARCHAR(255),
   frac_unit             VARCHAR(255),
@@ -83,7 +83,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/currencies.csv' INTO TABLE currencies FIE
 
 CREATE TABLE populations (
   pop_id                INTEGER,
-  country_code          VARCHAR(4),
+  country_code          VARCHAR(4) NOT NULL,
   year                  INTEGER,
   fertility_rate        REAL,
   life_expectancy       REAL,
