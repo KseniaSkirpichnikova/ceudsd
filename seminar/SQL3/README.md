@@ -76,7 +76,7 @@ FROM  countries
 
 ## Exercise 1
 
-Using the populations table focused only for the year 2015, create a new field AS popsize_group to organize population size into
+Select the populations records where year is 2015, create a new field AS popsize_group to organize population size into
 
 * 'large' (> 50 million),
 
