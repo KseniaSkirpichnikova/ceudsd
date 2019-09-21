@@ -163,14 +163,7 @@ Deleting some records
 
 `DROP TABLE employee`
 
-# HOMEWORK! (Submit to moodle by 2nd of October 21:00)
 
-* Read this article: https://database.guide/what-is-a-database-schema/
-* Create the tables of the first schema from this article (Album/Genre/Artists)
-* Insert 2 lines in every table (Beware of the order you insert them)
-* Delete one line from Artists. What happens and why?
-
-* Create as much complicated SELECT as you can on birdstrikes (Use MySQL reference manual: https://dev.mysql.com/doc/refman/8.0/en/)
 
 
 
