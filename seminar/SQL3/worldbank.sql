@@ -1,3 +1,4 @@
+SET sql_mode = '';
 
 CREATE TABLE cities (
   city_name               VARCHAR(255),
