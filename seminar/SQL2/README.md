@@ -65,7 +65,7 @@ How many observation days we have in birdstrikes
 `SELECT DATEDIFF(MAX(reported_date),MIN(reported_date)) from birdstrikes`
 
 
-### Exercise 3: List the lowest speed and aircraft where the implicated aircraft was 'C' and rename it to 'lowest_speed'
+### Exercise 3: List the lowest speed and aircraft where the implicated aircraft was 'C' and rename it to 'lowest_speed'. What is the resulting lowest speed?
 
 
 ## GROUP BY
