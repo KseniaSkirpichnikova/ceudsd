@@ -9,4 +9,4 @@ step9:
 substr($json$,1, length($json$)-2)
 
 step23: 
-substr($wind_speed [Binned]$,1,indexOf($wind_speed [Binned]$,"," )-1 )
+toInt(substr($wind_speed [Binned]$,1,indexOf($wind_speed [Binned]$,"," )-1 ))
