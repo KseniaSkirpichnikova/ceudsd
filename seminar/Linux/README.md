@@ -120,14 +120,14 @@ Write *state* and the *bird size* columns of the 18th line in birdstrikes in fil
 sort birdstrikes.csv
 ```
 
-* `sort -k -t` -
-Sort by feet above ground, high values first
+DESC sort by *id*
 ```
-cat birdstrikes.csv | sort -k11 -t ';' -n -r | less
+cat birdstrikes.csv | sort -k1 -t ';' -n -r
 ```
 
-### ***Exercise***
-* Which was the most expensive incident?
+
+### ***Exercise 5***
+* What was the cost of the most expensive incident?
 
 `sort | uniq` -
 What kind of bird sizes are there?
