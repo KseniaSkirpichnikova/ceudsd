@@ -92,9 +92,12 @@ wc birdstrikes.csv
 ```wc -l```
 shows only the line count
 
-### ***Exercise***
+### ***Exercise 2***
 
 * show the word, line and character count of the first 10 lines
+
+### ***Exercise 3***
+
 * how many incidents were in California (only output line count)
 
 ## Cutting lines
