@@ -1,4 +1,6 @@
 SET sql_mode = '';
+SET FOREIGN_KEY_CHECKS = 0;
+
 
 CREATE TABLE countries (
   country_code          VARCHAR(4),
