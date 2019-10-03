@@ -112,7 +112,7 @@ cat birdstrikes.csv | cut -d ';' -f4,10
 ```
 ### ***Exercise 4***
 
-* Display only the *state* and the *bird size* columns of Airplane accidents
+* Write *state* and the *bird size* columns of the 18th line in birdstrikes in file called onerepublic.csv. What is the result if run cat onerepublic.csv
 
 `sort` -
 Sort this file
