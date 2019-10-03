@@ -106,11 +106,11 @@ shows only the line count
 cat birdstrikes.csv | cut -d ';' -f5 | head -10
 ```
 
-* `cut` - Display only the *aircraft* and the *flight_date* columns
+* `cut` - Display only 20 rows with *damange* and the *cost* columns
 ```
-cat birdstrikes.csv | cut -d ';' -f2,3
+cat birdstrikes.csv | cut -d ';' -f4,10
 ```
-### ***Exercise***
+### ***Exercise 4***
 
 * Display only the *state* and the *bird size* columns of Airplane accidents
 
