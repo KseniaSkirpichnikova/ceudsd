@@ -129,23 +129,22 @@ cat birdstrikes.csv | sort -k1 -t ';' -n -r
 ### ***Exercise 5***
 * What was the cost of the most expensive incident?
 
-`sort | uniq` -
-What kind of bird sizes are there?
-```
-cat birdstrikes.csv | cut -d ';' -f9 | sort | uniq
-```
 
-### ***Exercise 1***
-In how many states did accidents happen?
+## Distinct/Unique values
+
+* `sort | uniq`
+How many distinct states we have in birdstrikes?
 ```
 cat birdstrikes.csv | cut -d ';' -f6 | sort | uniq | wc -l
 ```
+
 
 * `uniq -c` -
 How many incidents were there by state?
 ```
 cat birdstrikes.csv | cut -d ';' -f6 | sort | uniq -c
 ```
+
 
 ## Scripts
 
