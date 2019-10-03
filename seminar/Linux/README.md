@@ -151,12 +151,13 @@ cat birdstrikes.csv | cut -d ';' -f6 | sort | uniq -c
 * `bash script` - Write a script that gets the first column
 
 ```
-# nano firstcolumn.sh
+# nano myfirstscript.sh
 
-cut -d ';' -f1
+cat birdstrikes.csv | cut -d ';' -f5 | head -3
 
-# chmod a+x firstcolumn.sh
-# cat birdstrikes | ./firstcolumn.sh
+
+# chmod a+x myfirstscript.sh
+# ./myfirstscript.sh
 ```
 
 * `bash` -
