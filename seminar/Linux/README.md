@@ -59,7 +59,7 @@ we can do this with 1 command
 head -n 5 birdstrikes.csv | tail -n 1
 ```
 
-### ***Exercise***
+### ***Exercise 1***
 Copy the 6th and 7th line of birdstrikes into the 2lines.csv
 
 ## Filtering
