@@ -60,7 +60,7 @@ head -n 5 birdstrikes.csv | tail -n 1
 ```
 
 ### ***Exercise***
-put the 5th line into the 5thline.csv
+Copy the 5th line of birdstrikes into the 5thline.csv
 
 ## Filtering
 
