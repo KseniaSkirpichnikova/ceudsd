@@ -160,11 +160,19 @@ cat birdstrikes.csv | cut -d ';' -f5 | head -3
 # ./myfirstscript.sh
 ```
 
-* `bash` -
-script parameters
+* input parameter and for cycle
+
 ```
-echo $1
-cat
+#!/bin/bash
+
+echo DISPLAY $1x times:
+
+for (( i=1; i<=$1; i++ ))
+do
+  echo $i
+  cat birdstrikes.csv | cut -d ';' -f5 | head -3
+done
+
 ```
 
 ## Homework
