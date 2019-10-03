@@ -114,8 +114,8 @@ cat birdstrikes.csv | cut -d ';' -f4,10
 
 Write *state* and the *bird size* columns of the 18th line in birdstrikes in file called *onerepublic.csv*. What is the result if run 'cat onerepublic.csv'
 
-`sort` -
-Sort this file
+## Sorting
+
 ```
 sort birdstrikes.csv
 ```
