@@ -103,7 +103,7 @@ shows only the line count
 ## Cutting lines
 
 ```
-cat birdstrikes.csv | cut -d ';' -f5
+cat birdstrikes.csv | cut -d ';' -f5 | head -10
 ```
 
 * `cut` - Display only the *aircraft* and the *flight_date* columns
