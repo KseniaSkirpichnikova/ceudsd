@@ -127,7 +127,7 @@ cat birdstrikes.csv | sort -k1 -t ';' -n -r
 
 
 ### ***Exercise 5***
-* What was the cost of the most expensive incident?
+What was the cost of the most expensive incident?
 
 
 ## Distinct/Unique values
