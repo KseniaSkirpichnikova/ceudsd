@@ -132,7 +132,7 @@ cat birdstrikes.csv | sort -k1 -t ';' -n -r
 
 ## Distinct/Unique values
 
-* `sort | uniq`
+* `sort | uniq` - 
 How many distinct states we have in birdstrikes?
 ```
 cat birdstrikes.csv | cut -d ';' -f6 | sort | uniq | wc -l
