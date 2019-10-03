@@ -94,11 +94,11 @@ shows only the line count
 
 ### ***Exercise 2***
 
-* show the word, line and character count of the first 10 lines
+Show the word, line and character count of the first 10 lines
 
 ### ***Exercise 3***
 
-* how many incidents were in California (only output line count)
+How many incidents were in California (only output line count)
 
 ## Cutting lines
 
@@ -112,7 +112,7 @@ cat birdstrikes.csv | cut -d ';' -f4,10
 ```
 ### ***Exercise 4***
 
-* Write *state* and the *bird size* columns of the 18th line in birdstrikes in file called onerepublic.csv. What is the result if run cat onerepublic.csv
+Write *state* and the *bird size* columns of the 18th line in birdstrikes in file called *onerepublic.csv*. What is the result if run 'cat onerepublic.csv'
 
 `sort` -
 Sort this file
