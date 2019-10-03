@@ -60,7 +60,7 @@ head -n 5 birdstrikes.csv | tail -n 1
 ```
 
 ### ***Exercise***
-Copy the 5th line of birdstrikes into the 5thline.csv
+Copy the 6th and 7th line of birdstrikes into the 2lines.csv
 
 ## Filtering
 
@@ -132,7 +132,7 @@ What kind of bird sizes are there?
 cat birdstrikes.csv | cut -d ';' -f9 | sort | uniq
 ```
 
-### ***Exercise***
+### ***Exercise 1***
 In how many states did accidents happen?
 ```
 cat birdstrikes.csv | cut -d ';' -f6 | sort | uniq | wc -l
