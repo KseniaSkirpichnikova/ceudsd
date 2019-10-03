@@ -1,0 +1,3 @@
+
+
+step7: join("https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-marine&dataTypes=WIND_SPEED&format=json&startDate=",$${Sflight_date}$$,"&endDate=",$${Sflight_date}$$,"&boundingBox=",string($${Dymax}$$),",",string($${Dxmin}$$),",",string($${Dymin}$$),",",string($${Dxmax}$$))
