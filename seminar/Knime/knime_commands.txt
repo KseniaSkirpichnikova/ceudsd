@@ -1,3 +1,12 @@
 
 
-step7: join("https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-marine&dataTypes=WIND_SPEED&format=json&startDate=",$${Sflight_date}$$,"&endDate=",$${Sflight_date}$$,"&boundingBox=",string($${Dymax}$$),",",string($${Dxmin}$$),",",string($${Dymin}$$),",",string($${Dxmax}$$))
+step7: 
+
+join("https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-marine&dataTypes=WIND_SPEED&format=json&startDate=",$${Sflight_date}$$,"&endDate=",$${Sflight_date}$$,"&boundingBox=",string($${Dymax}$$),",",string($${Dxmin}$$),",",string($${Dymin}$$),",",string($${Dxmax}$$))
+
+
+step9: 
+substr($json$,1, length($json$)-2)
+
+step23: 
+substr($wind_speed [Binned]$,1,indexOf($wind_speed [Binned]$,"," )-1 )
