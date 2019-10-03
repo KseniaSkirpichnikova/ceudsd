@@ -5,7 +5,7 @@
 Let's set up our own user folder. Let's copy the birdstrikes file to our own directory:
 ```
 pwd
-cd
+ls
 cp /home/backup/birdstrikes.csv ./
 ls
 ls -l
