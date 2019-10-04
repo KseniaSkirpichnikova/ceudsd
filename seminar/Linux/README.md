@@ -175,7 +175,7 @@ done
 
 ```
 
-## Homework
+## Homework (Optional, no need to submit)
 
 * Show the first 3 Helicopter incidents outside of Colorado
 * How many incidents did happen were cost is bigger than 0
