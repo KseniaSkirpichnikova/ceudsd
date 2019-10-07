@@ -158,7 +158,7 @@ Filter by multiple conditions
 
 `SELECT * FROM birdstrikes WHERE state = 'Alabama' OR state = 'Missouri'`
 
-### Exercise 4: What state figures in the 2nd record, if you filter out all records which have no state or no bird_size specified?
+### Exercise 4: What state figures in the 2nd record, if you filter out all records which have no state and no bird_size specified?
 
 Filtering out empty strings as well
 

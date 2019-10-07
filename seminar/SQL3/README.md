@@ -172,14 +172,14 @@ USING (country_code)
 
 In cities table we have 2 cities for United Arab Emirates (ARE):
 
-`SELECT * FROM cities WHERE country_code = 'ARE'`  
+`SELECT country_code,city_name FROM cities WHERE country_code = 'ARE'`  
 
 Let's create a list with all combination these 2 cities
 
 ```
 SELECT p1.country_code, 
-       p1.city_name,
-       p2.city_name
+       p1.city_name as city1,
+       p2.city_name as city2
 FROM cities AS p1
 INNER JOIN cities AS p2
 USING(country_code)
